@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ImageEntity" representedClassName="ImageEntity" parentEntity="MachineEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="machineId" optional="YES" attributeType="String"/>
+        <attribute name="machineImage" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="MachineEntity" representedClassName="MachineEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="lastMaintenance" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="machineID" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="machineName" optional="YES" attributeType="String"/>
+        <attribute name="machineQRCodeNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="machineType" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ImageEntity" positionX="-861.8795166015625" positionY="44.66189575195312" width="128" height="59"/>
+        <element name="MachineEntity" positionX="-420.09130859375" positionY="168.1253051757812" width="128" height="133"/>
+    </elements>
+</model>
